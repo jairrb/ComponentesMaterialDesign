@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="@dimen/defalut"
     tools:context=".LoginActivity">
 
 
@@ -29,7 +29,7 @@
             <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Email"
+                android:hint="@string/email"
                 android:inputType="textEmailAddress" />
         </android.support.design.widget.TextInputLayout>
 
@@ -43,7 +43,7 @@
             <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:inputType="textPassword" />
         </android.support.design.widget.TextInputLayout>
 
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:checked="true"
-            android:text="Lembrar"
+            android:text="@string/lembrar"
             app:switchPadding="8dp" />
 
         <Button
@@ -61,9 +61,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp"
-            android:text="Entrar" />
+            android:paddingStart="@dimen/defalut"
+            android:paddingEnd="@dimen/defalut"
+            android:text="@string/entrar"
+            android:backgroundTint="@color/blue_3f51b5"/>
     </LinearLayout>
 
     <de.hdodenhof.circleimageview.CircleImageView

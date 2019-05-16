@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Componentes Material Design</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="lembrar">Lembrar</string>
+    <string name="entrar">Entrar</string>
+</resources>

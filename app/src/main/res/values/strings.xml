@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Componentes Material Design</string>
     <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="lembrar">Remember</string>
+    <string name="entrar">Sign In</string>
 </resources>
